@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>修改提交测试</h1>
     <router-link to="/home" tag="button" replace>Home</router-link>
     <router-link to="/about" tag="button" replace>About</router-link>
     <router-link v-bind:to="'/user/' + username" tag="button" replace
